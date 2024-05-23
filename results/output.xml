@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-23T07:25:38.000506" rpa="false" schemaversion="5">
+<suite id="s1" name="GitActionLibrary" source="C:\GitActionLibrary">
+<suite id="s1-s1" name="TestesViewer" source="C:\GitActionLibrary\TestesViewer.robot">
+<test id="s1-s1-t1" name="Tirar info de memoria" line="19">
+<kw name="New Page" owner="Browser">
+<msg time="2024-05-23T07:25:44.097870" level="INFO">Successfully initialized new page object and opened url: https://viewer.optixone.com.br/pacs/viewers/optixDev/?id=10001048&amp;cdi=1&amp;H=f09cc268a73f2302651c4a6f57e23bc9&amp;SD=94b415d6d6454844b9873dc167a69818402bba273acfe4cdab84ecc61dd50c16b771aa0d1c58eba35b53f6f6b07b601a22f4ea9796205ea9fe3e903643933be45185b1a6afc1b65b46378389176d2a6c97d0f7b144b26e7915ca04211c4675d594511376c2338d8eb23a0030f735acb87d531942ce5a1ff4e128c2c744fa1e7f76d1a6f0450e79b2320614a9edbe1257&amp;r=31146</msg>
+<msg time="2024-05-23T07:25:44.097870" level="INFO">No browser and context was open. New browser and context was automatically opened when page is created.</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-05-23T07:25:41.688978" elapsed="2.409875"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-05-23T07:25:48.102337" level="INFO">Slept 4 seconds.</msg>
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-05-23T07:25:44.100797" elapsed="4.001540"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-05-23T07:25:48.117774" level="INFO">Clicks the element 'xpath=/html/body/header/div[1]/button[4]'.</msg>
+<arg>xpath=/html/body/header/div[1]/button[4]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-05-23T07:25:48.116061" elapsed="0.111591"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-05-23T07:25:48.229604" level="INFO">Clicks the element 'xpath=/html/body/ul[7]/li[4]'.</msg>
+<arg>xpath=/html/body/ul[7]/li[4]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-05-23T07:25:48.228628" elapsed="0.099272"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-05-23T07:25:48.330828" level="INFO">Clicks the element 'xpath=/html/body/div[4]/table/tbody/tr[14]/td[2]/label[3]'.</msg>
+<arg>xpath=/html/body/div[4]/table/tbody/tr[14]/td[2]/label[3]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-05-23T07:25:48.328878" elapsed="0.075216"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-05-23T07:25:48.405066" level="INFO">Clicks the element 'xpath=/html/body/div[4]/table/tfoot/tr/td/button[2]'.</msg>
+<arg>xpath=/html/body/div[4]/table/tfoot/tr/td/button[2]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-05-23T07:25:48.405066" elapsed="0.084256"/>
+</kw>
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2024-05-23T07:25:48.769876" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2024-05-23T07:25:48.490208" elapsed="0.280650"/>
+</kw>
+<status status="PASS" start="2024-05-23T07:25:41.681592" elapsed="7.090227"/>
+</test>
+<status status="PASS" start="2024-05-23T07:25:38.049496" elapsed="10.801670"/>
+</suite>
+<status status="PASS" start="2024-05-23T07:25:38.009236" elapsed="10.849576"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="GitActionLibrary">GitActionLibrary</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="TestesViewer">GitActionLibrary.TestesViewer</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
