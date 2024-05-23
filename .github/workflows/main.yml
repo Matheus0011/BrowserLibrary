@@ -14,7 +14,7 @@ jobs:
         with:
           python-version: '3.10'
 
-      - nome: instalar node
+      - name: instalar node
         uses: actions/setup-node@v3
         with:
           node-version: '19.1'
