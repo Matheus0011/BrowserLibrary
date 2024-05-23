@@ -32,5 +32,5 @@ jobs:
       - name: Run RF Tests
         run: |
           robot -d ./results -v HEADLESS:true \
-          -v BROWSER:chromium TestesViewer
+          -v BROWSER:chromium TestesViewer.robot
         
